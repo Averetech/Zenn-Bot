@@ -80,6 +80,20 @@ p#advice {
   border-left: #ef6a2d 4px solid;
 }
 
+.hidden {
+  display: none;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 p strong {
   display: block;
   color: #ef6a2d;
