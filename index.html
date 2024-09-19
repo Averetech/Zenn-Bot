@@ -3,28 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="styles.css" />
     <title>Zenn. Bot</title>
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <h1>Zenn<span>Bot</span></h1>
+        <h1>Zenn<span class="bot">Bot</span></h1>
       </div>
       <div class="main">
         <div class="emoji">🤖</div>
         <p class="greet">Hello there! Welcome...</p>
-        <form>
+        <form id="zenn-bot-form">
           <input
             type="text"
             placeholder="Say, how can I help you? 😊"
             required
             class="assistant"
           />
-          <input type="submit" class="btn" />
+          <input type="submit" class="btn" id="btn" />
         </form>
         <div>
-          <p class="advice">Help me write an application for a job...</p>
+          <p id="advice"></p>
         </div>
       </div>
       <div class="footer">
