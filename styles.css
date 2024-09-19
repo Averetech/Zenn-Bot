@@ -74,9 +74,17 @@ p#advice {
   font-size: 15px;
   color: #232b33;
   margin-bottom: 80px;
+  line-height: 2;
   font-family: monospace;
   background-color: #f5f6f6;
   border-left: #ef6a2d 4px solid;
+}
+
+p strong {
+  display: block;
+  color: #ef6a2d;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .footer p {
